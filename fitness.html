@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Calcultor</title>
+	<link rel="stylesheet" type="text/css" href="fitness.css">
+	<script type="text/javascript" charset="utf-">
+		function calculatebmi() {
+			// body...
+			var weight:document.getElementById('weight').value;
+			var height:document.getElementById('height').value;
+			if (weight > 0 && height > 0) {
+				var finalBmi=
+				weight/(height/100*height/100)
+				document.getElementById('bmivalue').value= finalBmiValue
+				// if (finalBmi < 18.5) {
+				// 	document.form1.meaning.value="That You Are To Thin."
+				// }
+				// if (finalBmi > 18.5 && finalBmi < 25) {
+				// 	document.form1.meaning.value="That You Are Healthy."
+				// }
+				// if (finalBmi > 25) {
+				// 	document.form1.meaning.value="That You Are Overweight."
+
+				}
+else{
+	alert("Please Fill Every Thing Correctly")
+}
+			
+		
+	</script>
+</head>
+<body>
+	
+<div class="container">
+<h1 class="h1">Join Our Gym Now</h1>
+<form name="form1"><!-- no backend -->
+	<div class="form">
+
+Your Weight:	<input type="text" id="weight" name="" placeholder="Enter Your Weight" required id="weight">
+</div>
+<div class="form">
+
+Your Height(in cm):	<input type="text" id="height" name="" placeholder="Enter Your Height" required id="height">
+</div>
+<div class="form">
+
+	<input type="number" name="" id="bmivalue" >
+</div>
+
+<div class="form">
+
+	<button type="submit" class="one" id="" onclick="calculatebmi()">Calculate Bmi</button>
+<div class="form">
+
+	This Means:<input type="text" name="meaning">
+</div>
+<div class="form">
+
+	<input type="reset" value="reset">
+</div>
+
+	
+</form>
+
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>

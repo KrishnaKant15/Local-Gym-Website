@@ -1,0 +1,19 @@
+.container{
+	border: 2px solid blue;
+	margin: 100px 40px;
+	padding: 20px 20px;
+	width: 33%;
+	border-radius: 20px;
+	border-color: white;
+
+}
+.form input{
+	font-family: 'Baloo Bhai', cursive;
+	text-align: center;
+	display: block;
+	border: 2px solid white;
+	margin: 11px auto;
+	padding:8px;
+	width: 400px;
+font-size: 20px;
+}
